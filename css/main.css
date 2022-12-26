@@ -1315,7 +1315,6 @@ button {
   display: block;
   padding: 18px 30px;
   color: var(--text-light);
-  background-color: #fff;
   border-radius: 100px;
   border: 1.5px solid #E5E7EA;
   transition: all 0.3s ease;
@@ -1325,6 +1324,7 @@ button {
 }
 .choose__link:active {
   background-color: var(--main-green);
+  color: #fff;
 }
 
 @media only screen and (max-width: 768px) {

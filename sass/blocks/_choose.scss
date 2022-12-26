@@ -167,7 +167,6 @@
     display: block;
     padding: 18px 30px;
     color: var(--text-light);
-    background-color: #fff;
     border-radius: 100px;
     border: 1.5px solid #E5E7EA;
     @include transition;
@@ -177,6 +176,7 @@
     }
     &:active {
         background-color: var(--main-green);
+        color: #fff;
     }
 }
 
