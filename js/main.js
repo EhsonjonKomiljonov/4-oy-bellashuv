@@ -127,3 +127,24 @@ const menuExit = () => {
   elBody.classList.remove("menu");
   elHtml.style.overflow = "auto";
 };
+
+
+const btnMode = document.querySelector(".linkbox__mode__btn")
+
+let localTheme = false;
+
+btnMode.addEventListener("click", () => {
+  localTheme = !localTheme;
+  const bg = localTheme ? "dark" : "light";
+  window.localStorage.setItem("theme", bg);
+  changeTheme();
+});
+
+function changeTheme() {
+  if (window.localStorage.getItem("theme") == "dark") {
+    document.body.classList.add("dark");
+  } else {
+    document.body.classList.remove("dark");
+  }
+}
+changeTheme();

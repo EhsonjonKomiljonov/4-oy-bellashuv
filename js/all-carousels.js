@@ -1,6 +1,6 @@
 $('.hero__carousel__list').slick({
     Infinity: true,
-    // autoplay: true,
+    autoplay: true,
     speed: 3000,
     responsive: [
         {
