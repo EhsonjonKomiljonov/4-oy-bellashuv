@@ -109,6 +109,7 @@ const modalExit = () => {
 };
 
 elPassBtn.addEventListener("click", () => {
+  elPassBtn.style.backgroundImage = 'url("../images/eye-password.svg")';
   if (elPassInput.type === "password") {
     elPassInput.type = "text";
     elPassBtn.style.backgroundImage = 'url("../images/eye-password-veiw.svg")';
@@ -128,8 +129,7 @@ const menuExit = () => {
   elHtml.style.overflow = "auto";
 };
 
-
-const btnMode = document.querySelector(".linkbox__mode__btn")
+const btnMode = document.querySelector(".linkbox__mode__btn");
 
 let localTheme = false;
 
