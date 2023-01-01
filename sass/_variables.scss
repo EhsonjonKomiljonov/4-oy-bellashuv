@@ -22,9 +22,18 @@
   --choose-img2: url("../images/choose-icon2.svg");
   --choose-img3: url("../images/choose-icon3.svg");
   --choose-img4: url("../images/choose-icon4.svg");
+
+  --safe-border: #e5e7ea;
+  --safe-text-color: #555;
+  --safe-item-bg: #fff;
+
+  --safe-icon1: url("../images/safe__icon-1.svg");
+  --safe-icon2: url("../images/safe__icon-2.svg");
+  --safe-icon3: url("../images/safe__icon-3.svg");
 }
 
 .dark {
+  --body-bg-light: #1C1C1C;
   --btn-bg-light: #1c1c1c;
 
   --text-light: #ffffff;
@@ -33,7 +42,6 @@
 
   --main-green: #299764;
 
-  --body-bg-light: #272727;
   --menu-bgi: #323232;
   --btn-bg-dark: #f5f5f5;
   --mode-btn-bgi: url("../images/sun.svg");
@@ -44,6 +52,14 @@
   --choose-img2: url("../images/choose-icon2-dark.svg");
   --choose-img3: url("../images/choose-icon3-dark.svg");
   --choose-img4: url("../images/choose-icon4-dark.svg");
+
+  --safe-border: #333333;
+  --safe-text-color: #fff;
+  --safe-item-bg: #272727;
+
+  --safe-icon1: url("../images/safe__icon-1-dark.svg");
+  --safe-icon2: url("../images/safe__icon-2-dark.svg");
+  --safe-icon3: url("../images/safe__icon-3-dark.svg");
 }
 
 .menu {
